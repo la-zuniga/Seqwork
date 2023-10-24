@@ -1,0 +1,11 @@
+Package: seqwork
+Type: Package
+Title: Data handling and visualization for amplicon sequence variant data
+Version: 0.0
+Date: 04/20/2022
+Author: L. Zuniga
+Maintainer: L. Zuniga <laz2g@mtmail.mtsu.edu>
+Description: Functions for creating a taxonomic key from ASV data, converting a table of counts to proportions, and visualizing relative abundances of taxa from ASV data.
+Imports: ggplot2, vegan, phyloseq 
+Depends: R (>= 3.5.0)
+License: GPL (>= 2)

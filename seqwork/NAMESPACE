@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("vegan", cca, metaMDS, decostand)
+importFrom("ggplot2", labs, scale_fill_viridis_d, theme, element_text)
+importFrom("phyloseq", phyloseq, otu_table, tax_table, taxa_sums, prune_taxa, plot_bar)
